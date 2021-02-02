@@ -1,0 +1,77 @@
+.modalStyle{
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%),
+}
+
+/* === For Image Upload Components ===*/
+.imageupload{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageload-progress{
+    width: 100%;
+}
+
+.imageupload-button{
+    margin: 10px;
+    height: 30px;
+}
+
+/* === For Post Components ===*/
+.post{
+    border: 1px solid lightgray;
+    width: fit-content;
+    margin-bottom: 45px;
+    background-color: #ffffff;
+    max-width: 500px;
+}
+.post-image{
+    width: 100%;
+    object-fit: contain;
+}
+
+.post-avatar{
+    margin-right: 10px;
+}
+.post-header{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.post-text{
+    padding: 10px;
+    text-align: left;
+}
+
+.post-comments{
+    padding: 10px;
+}
+.post-caption{
+    font-weight:normal;
+}
+.post_commentBox{
+    display: flex;
+    margin-top: 10px;
+}
+.post-input{
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+}
+
+.post-button{
+    border: none;
+    border-top: 1px solid lightgray;
+    color: #6082a3;
+    background-color: transparent;
+    flex: 0;
+}
